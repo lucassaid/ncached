@@ -1,0 +1,42 @@
+{
+  "name": "ncached",
+  "version": "1.0.0",
+  "description": "NCached is a Memcached-compatible server written in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/lucassaid/ncached#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucassaid/ncached"
+  },
+  "author": "Lucas Said",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hashmap": "^2.4.0",
+    "log": "^6.0.0",
+    "memcached": "^2.2.2",
+    "yargs": "^16.0.3"
+  },
+  "keywords": [
+    "memcached",
+    "npm",
+    "server",
+    "memcache",
+    "cache",
+    "caching",
+    "in-memory",
+    "database"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "bin": {
+    "ncached": "bin/ncached.js"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
