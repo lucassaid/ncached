@@ -1,5 +1,1 @@
-// module.exports = require('./lib/server')
-
-const initServer = require('./lib/server')
-
-initServer(11212)
+module.exports = require('./lib/server')

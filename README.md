@@ -65,7 +65,7 @@ END
 
 Using [memcached](https://www.npmjs.com/package/memcached) library:
 
-```bash
+```js
 const Memcached = require('memcached');
 const memcached = new Memcached('localhost:11212');
 
