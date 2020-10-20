@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 const {argv} = require('yargs')
-
+const logger = require('../lib/logger')
+const ncached = require('../lib/server');
 const port = argv.p || 11212
 
-const ncached = require('../lib/server.js');
 ncached(port, err => {
   if(!err) {
-    console.log('Server started on port ' + port)
+    logger.info('Server started on port ' + port)
   } else {
-    console.log('The server could not start: ', err)
+    logger.error('The server could not start: ' + err)
   }
 });

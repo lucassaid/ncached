@@ -16,6 +16,7 @@
   "dependencies": {
     "hashmap": "^2.4.0",
     "log": "^6.0.0",
+    "winston": "^3.3.3",
     "yargs": "^16.0.3"
   },
   "keywords": [
