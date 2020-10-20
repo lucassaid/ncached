@@ -1,11 +1,14 @@
-# ncached
+# NCached
+NCached is a Memcached-compatible server written in node.js
 
 ## Installation
+Install globally using npm:
 ```bash
 npm i -g ncached
 ```
 
 ## Usage
+Start the server from the command line:
 ```bash
 ncached
 ```
@@ -14,7 +17,7 @@ ncached
 | Flag | Description | Default value |
 | :---: | :---: | :---: |
 | -p | Port where the server will listen for new clients | 11212 |
-| -l | Logger level. Available options: `error`, `info`, `debug` | info |
+| -l | Logger level. Available options: `error`, `info`, `verbose`, `debug` | info |
 
 ## Available commands
 
@@ -36,7 +39,7 @@ To learn more about how memcached commands work, have a look at this [guide](htt
 
 ### Telnet
 
-Connect to an ncached server via telnet:
+Connect to an NCached server via telnet:
 
 ```bash
 telnet <server_ip> <server_port>
