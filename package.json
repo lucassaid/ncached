@@ -1,6 +1,6 @@
 {
   "name": "ncached",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a Memcached-compatible server written in node.js",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "hashmap": "^2.4.0",
-    "log": "^6.0.0",
     "winston": "^3.3.3",
     "yargs": "^16.0.3"
   },
