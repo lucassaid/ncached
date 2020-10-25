@@ -80,7 +80,7 @@ memcached.set('foo', 'bar', 20, (err) => {
 ```
 
 ## Run tests
-
+Go to installation folder and run:
 ```bash
 npm run test
 ```
